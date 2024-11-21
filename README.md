@@ -5,11 +5,15 @@ Olá! Este é um guia passo a passo para configurar seu projeto Node.js com Pris
 
 # Passo 1: Configuração do Projeto
 
-1. Crie uma pasta para o projeto e acesse-a.
+1. Crie uma pasta para o projeto e acesse-a:
    ```bash
    mkdir meu-projeto && cd meu-projeto
    ```
-2. Inicialize o Node.js no projeto:
+2. Crie uma subpasta chamada **Server** e acesse-a:
+   ```bash
+   mkdir Server && cd Server
+   ```
+3. Inicialize o Node.js na pasta **Server**:
    ```bash
    npm init -y
    ```
@@ -90,15 +94,12 @@ Olá! Este é um guia passo a passo para configurar seu projeto Node.js com Pris
 
 ---
 
-
-
 # Arquivo Python para Configuração Automática
 
 O arquivo Python anexo cria toda a estrutura do projeto, incluindo o `seed.js`, as rotas e o teste automático.
 
-[Baixar Script Python](create_full_project_structure_with_updates.py)
+[Abrir arquivo do script](create_full_project_structure_with_updates.py)
 
 ---
 
 **Dica:** Após seguir todos os passos, seu projeto estará configurado e pronto para uso. Divirta-se programando!
-
